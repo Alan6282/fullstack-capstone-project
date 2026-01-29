@@ -5,20 +5,20 @@ import {urlConfig} from '../../config';
 
 function SearchPage() {
     const [searchQuery, setSearchQuery] = useState('');
-    const [ageRange, setAgeRange] = useState(6); // Initialize with minimum value
+    const [ageRange, setAgeRange] = useState(6); 
     const [searchResults, setSearchResults] = useState([]);
     const categories = ['Living', 'Bedroom', 'Bathroom', 'Kitchen', 'Office'];
     const conditions = ['New', 'Like New', 'Older'];
 
     useEffect(() => {
-        // fetch all products
+       
         const fetchProducts = async () => {
             try {
                 let url = `${urlConfig.backendUrl}/api/gifts`
                 console.log(url)
                 const response = await fetch(url);
                 if (!response.ok) {
-                    //something went wrong
+                    
                     throw new Error(`HTTP error; ${response.status}`)
                 }
                 const data = await response.json();
@@ -33,7 +33,7 @@ function SearchPage() {
 
 
     const handleSearch = async () => {
-        // Construct the search URL based on user input
+       
         const baseUrl = `${urlConfig.backendUrl}/api/search?`;
         const queryParams = new URLSearchParams({
             name: searchQuery,

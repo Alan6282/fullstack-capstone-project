@@ -15,7 +15,7 @@ function MainPage() {
 
                 if(!response.ok){
 
-                    //something went wrong 
+                   
                     throw new Error(`HTTP error; ${response.status}`)
                 }
                 const data = await response.json();
@@ -31,14 +31,14 @@ function MainPage() {
 
     }, []);
 
-    // Task 2: Navigate to details page
+  
     const goToDetailsPage = (productId) => {
         
         navigate(`/app/product/${productId}`);
 
       };
 
-    // Task 3: Format timestamp
+   
     const formatDate = (timestamp) => {
         const date = new Date(timestamp * 1000);
         return date.toLocaleDateString('default', { month: 'long', day: 'numeric', year: 'numeric' });
