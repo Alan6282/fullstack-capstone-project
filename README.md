@@ -164,9 +164,21 @@ Frontend
 
 ## 📸 Screenshots
 
-- Landing page
-- Main page (before login)
-- User registration
-- Logged-in user view
-- Gift details page
-- Search results page
+- **Landing page**
+![landing](screenshot/deployed_landingpage.png)
+
+
+- **Main page (before login)**
+![MainPage](screenshot/deployed_mainpage.png)
+
+- **User registration**
+![UserRegistration](screenshot/registration.png)
+
+- **Logged-in user view**
+![LoggedInUser](screenshot/deployed_landingpage.png)
+
+- **Gift details page**
+![GiftDetails](screenshot/deployed_gift_detail.png)
+
+- **Search results page**
+![SearchPage](screenshot/deployed_search_gift.png)
