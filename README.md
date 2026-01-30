@@ -168,14 +168,14 @@ Frontend
 ![landing](screenshot/deployed_landingpage.png)
 
 
-- **Main page (before login)**
+- **Home page**
 ![MainPage](screenshot/deployed_mainpage.png)
 
 - **User registration**
 ![UserRegistration](screenshot/registration.png)
 
 - **Logged-in user view**
-![LoggedInUser](screenshot/deployed_landingpage.png)
+![LoggedInUser](screenshot/deployed_loggedin.png)
 
 - **Gift details page**
 ![GiftDetails](screenshot/deployed_gift_detail.png)
